@@ -1,13 +1,13 @@
 # PalindroneCheckerApp
-//UC3: Palindrome Check Using String Reverse
-//Goal: Check whether a string is a palindrome by reversing it.
+//UC4: Character Array Based Palindrome Check
+//Goal: Convert string to character array and compare characters.
 //Flow:
-//Reverse string using loop
-//Compare original and reversed
-//Display result
-//Key Concepts used in UC3:
-//Loop (for loop) – Used to iterate through the characters of the string in reverse order.
-//String Immutability – In Java, String objects are immutable; every modification creates a new String object.
-//String Concatenation (+) – Used to build the reversed string character by character (introduced here to later discuss drawbacks).
-//equals() Method – Used to compare the actual content of two String objects instead of memory references.
-//Data Structure: String
+//Convert string to char[]
+//Use two-pointer approach
+//Compare start & end characters
+//Key Concepts used in UC4:
+//Character Array (char[]) – A primitive array used to store individual characters of a string for index-based access.
+//Array Indexing – Accessing elements using index positions starting from 0.
+//Two-Pointer Technique – One pointer starts from the beginning and the other from the end, reducing unnecessary comparisons.
+//Time Complexity Awareness – Demonstrates efficient comparison without creating extra objects.
+//Data Structure: char[]
